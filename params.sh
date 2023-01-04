@@ -1,13 +1,13 @@
 ## AKS
-LOCATION="westeurope"
+LOCATION="canadacentral"
+RG_NAME="TestRG"
 
 ## Networking
-USERS_VNET="AK-VNET1"
-USERS_RG="AK-TESTRG"
+USERS_VNET="vnet-users"
+USERS_RG="users-rg"
 USERS_VNET_CIDR="10.100.0.0/16"
-USERS_SNET="AK-Subnet1"
+USERS_SNET="users-subnet"
 USERS_SNET_CIDR="10.100.100.0/24"
-
 
 
 ## Jumpbox VM
