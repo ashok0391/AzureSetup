@@ -1,10 +1,9 @@
-## AKS
-LOCATION="eastus2"
-RG_NAME="TestingRG"
+## ResourceGroup
+LOCATION="EastUS"
 
-## Networking
-USERS_VNET="TestingVNet"
-USERS_RG="testingnetwork-rg"
-USERS_VNET_CIDR="10.100.0.0/16"
-USERS_SNET="users-subnet"
-USERS_SNET_CIDR="10.100.100.0/24"
+## Vnet and Subnet Creation
+VNET_NAME="TESTVNET"
+VNET_RG="TestNetworkRG"
+VNET_CIDR="10.100.0.0/16"
+SUBNET_NAME="TestSubnet1"
+SUBNET_CIDR="10.100.10..0/24"
